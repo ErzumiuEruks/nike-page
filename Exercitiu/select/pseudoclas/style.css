@@ -1,0 +1,44 @@
+/* Pseudoclass */
+
+p:hover {
+    color: red;
+    font-size: 2em; /*Pune cand dai cu cursorul peste text*/
+}
+
+div p:nth-child(3) {
+    font-weight: bold;
+}
+
+div p:nth-child(4) {
+    font-weight: bold;
+    color: lightgreen;
+}
+
+/* Pseudoelements */
+
+p::first-line{
+    color: blueviolet;/* Pune la prima linie de la fiecare div*/
+}
+
+p::first-letter{
+    font-size: 2em;
+    color: red; /*Pune la prima litera de pe fiecare div*/
+}
+
+p::before{
+    content: "👍🌭 ";/*Pune la inceput*/
+}
+
+p::after{
+    content: "🌭 "; /* Pune la final*/
+}
+
+::placeholder{
+    color: red;
+}
+div p:nth-child(4){
+    font-size: 5em;
+    color: black;
+    background-color: blue;
+}
+

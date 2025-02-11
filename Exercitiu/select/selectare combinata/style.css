@@ -1,0 +1,33 @@
+/* Combinatie de descendenti*/
+div p{
+    color: lime;
+}
+
+/* Fii directi*/
+div>div{
+    background: plum;
+}
+
+/* Element adiacent*/
+div+section{
+    background: salmon;
+    /*
+    <div>...</div>
+    <div>...</div>
+    -----------------------
+    <section>...</section>
+    -----------------------
+    <section>...</section>
+    */
+}
+/* Frati generali */
+div ~ p{
+    color: red;
+    /*
+    ----------
+    <p>...</p>
+    <p>...</p>
+    ----------
+    <div>...</div>
+    */
+}

@@ -1,0 +1,35 @@
+*b{
+    box-sizing: border-box;
+}
+
+
+div:nth-child(2){
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    background-color: burlywood;
+    width: 275px;
+    height: 100px;
+}
+
+div:nth-child(1){
+    position: relative;
+    margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+div h1{
+    margin-top: 50px;
+}
+
+div h4{
+    margin-bottom: 50px;
+    justify-content: center;
+    
+}

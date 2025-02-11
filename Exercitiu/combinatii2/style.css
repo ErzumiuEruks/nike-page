@@ -1,0 +1,26 @@
+/* Descendetni */
+div p{
+    color: lightcoral;
+    background: grey;
+}
+
+/* Fiu direct */
+div>p{
+    background: red;
+}
+
+/* Elemente Adiacente (unu dupa altul) */
+h1+div{
+    background: magenta;
+}
+
+/* Fratii generali */
+div~p.specificatie{
+    font-size: 1.5em;
+    background-color: aquamarine;
+}
+
+/* Aplicarea a diferite stilri la diferiti selectori */
+div, p, a{
+    background-color: lightsalmon;
+}

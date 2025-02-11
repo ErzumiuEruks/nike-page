@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; /*vertical*/
+    flex-wrap: wrap;
+    justify-content: center;/*orizontal*/
+    background: lightgrey;
+    height: 300px;
+
+}
+
+.item{
+    background: lightcoral;
+    width: 100px;
+    height: 100px;
+}
